@@ -1,77 +1,55 @@
 {
-	"errorCode": 0,
-	"errorMessage": "",
-	"marketPriceRealTimeResult": {
+	"posts": {
 		"errorCode": 0,
 		"errorMessage": "",
-		"data": {
-			"currentPrice": "104.32",
-			"exchangeCode": "NYSE",
-			"tradeDate": "2018-11-07",
-			"tradeTime": "",
-			"netChange": "",
-			"securityCodeAttribute": "WMT"
-		}
-	},
-	"nameAndAddressResult": {
-		"errorCode": 0,
-		"errorMessage": "",
-		"data": {
-			"nameAddress1": "250 ROYALL ST",
-			"nameAddress2": "CANTON MA",
-			"nameAddress3": "",
-			"nameAddress4": "",
-			"nameAddress5": "",
-			"nameAddress6": "",
-			"nameAddress7": "",
-			"nameAddress8": "",
-			"postCode": "02021",
-			"domicile": "USA",
-			"holderDisplayName": "COGNIZANT UNCERTEMAILOPTOUT"
-		}
-	},
-	"holderStatusAlertsResult": {
-		"errorCode": 0,
-		"errorMessage": "",
-		"data": {
-			"tinCertified": "N",
-			"holderStatusStopTrade": "N",
-			"deceasedHolderFlag": "N"
-		}
-	},
-	"preSalesParamsResult": {
-		"errorCode": 0,
-		"errorMessage": "",
-		"data": {
-			"paymentDirectCredit": "Y",
-			"maxDeal": "100000.00",
-			"planAvailableForSale": "10000.000000",
-			"directCreditFlag": "Y",
-			"directCreditAccountNumber": "******3053",
-			"courierChargeInd": "Y",
-			"foreignChequeCharge": "15.000000",
-			"foreignChequeChargeInd": "F",
-			"courierAllowInd": "A",
-			"cellTelephoneNumber": ""
-		}
-	},
-	"directCreditDetailsResult": {
-		"errorCode": 0,
-		"errorMessage": "",
-		"data": {
-			"payeeAccountNumber": "******3053",
-			"payeeNameAddress1": "BANK OF AMERICA N A",
-			"accountType": "S"
-		}
-	},
-	"extraDetailsResult": {
-		"errorCode": 0,
-		"errorMessage": "",
-		"data": {
-			"emailAddress": "test@test.com",
-			"cellTelephoneNumber": "",
-			"smsPhoneNumber": "7815752000",
-			"smsRegistrationStatus": "O"
+		"marketPriceRealTimeResult": {
+			"data": {
+				"currentPrice": "104.32",
+				"securityCodeAttribute": "WMT"
+			}
+		},
+		"nameAndAddressResult": {
+			"data": {
+				"nameAddress1": "250 ROYALL ST",
+				"nameAddress2": "CANTON MA",
+				"postCode": "02021",
+				"domicile": "USA",
+				"holderDisplayName": "COGNIZANT UNCERTEMAILOPTOUT"
+			}
+		},
+		"holderStatusAlertsResult": {
+			"data": {
+				"tinCertified": "N",
+			}
+		},
+		"preSalesParamsResult": {
+			"data": {
+				"paymentDirectCredit": "Y",
+				"maxDeal": "100000.00",
+				"planAvailableForSale": "10000.000000",
+				"directCreditFlag": "Y",
+				"directCreditAccountNumber": "******3053",
+				"courierChargeInd": "Y",
+				"foreignChequeCharge": "15.000000",
+				"foreignChequeChargeInd": "F",
+				"courierAllowInd": "A",
+				"cellTelephoneNumber": ""
+			}
+		},
+		"directCreditDetailsResult": {
+			"data": {
+				"payeeAccountNumber": "******3053",
+				"payeeNameAddress1": "BANK OF AMERICA N A",
+				"accountType": "S"
+			}
+		},
+		"extraDetailsResult": {
+			"data": {
+				"emailAddress": "test@test.com",
+				"cellTelephoneNumber": "",
+				"smsPhoneNumber": "7815752000",
+				"smsRegistrationStatus": "O"
+			}
 		}
 	}
 }
